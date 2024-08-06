@@ -1,0 +1,34 @@
+// https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/
+{
+  "manifest_version": 2,
+  "default_locale": "en_US",
+  "name": "SPixiv",
+  "version": "0.1",
+  "author": "rainbowflesh",
+  "homepage_url": "https://github.com/rainbowflesh/spixiv",
+  "description": "Simplified pixiv.net",
+  "icons": {
+    "48": "public/icons/minip-48.png",
+    "96": "public/icons/minip-96.png",
+    "128": "public/icons/minip-128.png"
+  },
+  "applications": {
+    "gecko": {
+      "strict_min_version": "57.0a1"
+    }
+  },
+  "permissions": [
+    "storage",
+    "webRequest",
+    "webRequestBlocking",
+    "webNavigation",
+    "https://www.pixiv.net/*",
+    "https://s.pximg.net/*"
+  ],
+  "options_ui": {
+    "page": "src/options.html"
+  },
+  "background": {
+    "scripts": ["src/index.js"]
+  }
+}

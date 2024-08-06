@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" class="page-cool-index" xmlns:wb="http://open.weibo.com/wb">
+  <head> </head>
+  <title>Online community for artists [pixiv]</title>
+  <body>
+    <div id="background-slideshow"></div>
+    <div id="animation"></div>
+  </body>
+  <script src="https://source.pixiv.net/common/background-slideshow/bundle.js"></script>
+  <script>
+    let el = document.getElementById("animation");
+
+    let i = 0;
+
+    const update = () => {
+      el.innerText = "\n".repeat(i % 5) + "_".repeat(i % 50) + "Hello";
+      i += 1;
+      requestAnimationFrame(update, 50000);
+    };
+
+    requestAnimationFrame(update, 50000);
+  </script>
+</html>
