@@ -18,7 +18,7 @@ let layout = `<!doctype html>
         <a href="#" id="menuToggle">Menu</a>
         <nav>
             <ul id="menu">
-                <li><a href="/">Pixiv</a></li>
+                <li><a href="/"><img src="https://s.pximg.net/www/images/logo/pixiv-logo.svg"></a></li>
                 <li><a href="/manage/illusts">${browser.i18n.getMessage("menuManage")}</a></li>
                 <li><a href="/messages.php">${browser.i18n.getMessage("menuMessages")}</a></li>
                 <li><a href="/bookmark.php">${browser.i18n.getMessage("menuBookmarks")}</a></li>
