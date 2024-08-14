@@ -29,6 +29,8 @@ A simplified <a href="https://www.pixiv.net/">pixiv.net</a>
 ## TODO
 
 - [ ] Display user banner image (https://embed.pixiv.net/user_profile.php?id=)
+- [ ] Handle more pages.
+- [ ] Refact codes.
 
 ## Contribute
 
@@ -39,3 +41,4 @@ Do anything you want then PR.
 1. [mini-pixiv](https://addons.mozilla.org/en-US/firefox/addon/mini-pixiv/?utm_content=addons-manager-reviews-link&utm_medium=firefox-browser&utm_source=firefox-browser)
 2. [pixiv-api-client](https://github.com/alphasp/pixiv-api-client)
 3. [heroicons](https://heroicons.com/)
+4. [chota](https://jenil.github.io/chota/)
