@@ -230,7 +230,7 @@ function onCompleted(details) {
   )
     return;
   if (details.url.indexOf("/activity/.json") != -1) return;
-  browser.tabs.executeScript(details.tabId, { file: "/feed.js", runAt: "document_end" });
+  browser.tabs.executeScript(details.tabId, { file: "/src/feed.js", runAt: "document_end" });
 }
 
 //messages

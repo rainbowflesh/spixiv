@@ -3,6 +3,8 @@
 # SPixiv
 
 <p align="center">
+<img alt="Firefox Extension" src="./public/icons/logo.svg">
+<br/>
 A simplified <a href="https://www.pixiv.net/">pixiv.net</a>, fast and small.
     <br/>
     <br/>
