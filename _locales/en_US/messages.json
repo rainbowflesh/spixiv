@@ -134,7 +134,7 @@
     "description": ""
   },
   "expiredText": {
-    "message": "To continue using the Mini Pixiv extension for Chrome, <a href='$STORE$'>please purchase it from the Chrome Web Store.</a><br><br>If you have already purchased the extension:<br><a href='#' id='sign'>Sign in to Chrome browser</a> with your Google account, turn on sync, and reload the page.<br>Chrome will update your license automatically.",
+    "message": "To continue using the SPixiv extension for Chrome, <a href='$STORE$'>please purchase it from the Chrome Web Store.</a><br><br>If you have already purchased the extension:<br><a href='#' id='sign'>Sign in to Chrome browser</a> with your Google account, turn on sync, and reload the page.<br>Chrome will update your license automatically.",
     "description": "",
     "placeholders": {
       "store": {
