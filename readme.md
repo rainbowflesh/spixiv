@@ -3,10 +3,10 @@
 # SPixiv
 
 <p align="center">
-A simplified <a href="https://www.pixiv.net/">pixiv.net</a>
+A simplified <a href="https://www.pixiv.net/">pixiv.net</a>, fast and small.
     <br/>
     <br/>
-        <img alt="Firefox Extension" src="./assets/preview.jpg">
+        <img alt="Firefox Extension" src="./assets/preview.png">
     <br/>
     <br/>
     <a href="https://addons.mozilla.org/en-US/firefox/addon/spixiv">

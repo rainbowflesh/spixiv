@@ -7,6 +7,16 @@
         padding: 1rem;
       }
       @media (prefers-color-scheme: dark) {
+        body {
+          background: #23222b;
+        }
+        p,
+        div,
+        h1,
+        h2,
+        h3 {
+          color: white;
+        }
         section:not(:first-of-type) {
           border-color: #3f4042;
         }
@@ -53,7 +63,7 @@
       <table>
         <tr>
           <td>
-            <button type="submit" id="optSave"></button>
+            <button type="submit" id="optSave">Save</button>
           </td>
           <td>
             <span id="result"></span>
@@ -61,7 +71,7 @@
         </tr>
       </table>
     </form>
-    <script src="./purify.min.js"></script>
-    <script src="./options.js"></script>
+    <script src="purify.min.js"></script>
+    <script src="options.js"></script>
   </body>
 </html>
