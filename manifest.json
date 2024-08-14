@@ -8,9 +8,9 @@
   "homepage_url": "https://github.com/rainbowflesh/spixiv",
   "description": "Simplified pixiv.net",
   "icons": {
-    "48": "public/icons/minip-48.png",
-    "96": "public/icons/minip-96.png",
-    "128": "public/icons/minip-128.png"
+    "48": "public/icons/logo.svg",
+    "96": "public/icons/logo.svg",
+    "128": "public/icons/logo.svg"
   },
   "applications": {
     "gecko": {
