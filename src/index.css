@@ -10,14 +10,34 @@ svg {
   vertical-align: text-top;
 }
 
-.logo {
-  height: 1rem;
+#header {
+  box-sizing: border-box;
+  background: #ffc301;
+  padding: 10px 15px;
+  display: table;
+  width: 100%;
+  height: 70px;
 }
 
-.logo-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.logo {
+  text-align: center;
+  width: 70px;
+  color: #fff;
+}
+
+.logo,
+.menu {
+  vertical-align: sub;
+  display: table-cell;
+}
+
+.menu ul {
+  text-align: left;
+}
+
+.menu ul li {
+  display: inline-block;
+  vertical-align: top;
 }
 
 .pagination {
@@ -79,7 +99,6 @@ header a,
 header a:visited {
   color: #8595ae;
   text-decoration: none;
-  vertical-align: sub;
 }
 
 #minip {
