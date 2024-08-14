@@ -6,7 +6,7 @@ document.getElementById("optLoadMaster").textContent = chrome.i18n.getMessage("o
 document.getElementById("optFitImages").textContent = chrome.i18n.getMessage("optFitImages");
 document.getElementById("optUseCdn").textContent = chrome.i18n.getMessage("optUseCdn");
 document.getElementById("optCdnUrl").textContent = chrome.i18n.getMessage("optCdnUrl");
-document.getElementById("optCdnUrlInfo").innerHTML = DOMPurify.sanitize(chrome.i18n.getMessage("optCdnUrlInfo"));
+document.getElementById("optCdnUrlInfo")?.innerHTML = DOMPurify.sanitize(chrome.i18n.getMessage("optCdnUrlInfo"));
 document.getElementById("optSave").textContent = chrome.i18n.getMessage("optSave");
 
 function saveOptions(e) {

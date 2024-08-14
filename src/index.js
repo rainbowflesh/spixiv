@@ -168,15 +168,15 @@ function addContentScripts(details) {
   let pageType = getPageType(details.url);
   //illust
   if (pageType == "illust") {
-    browser.tabs.insertCSS(details.tabId, { file: "/main.css", runAt: "document_end" });
-    browser.tabs.executeScript(details.tabId, { file: "/purify.min.js", runAt: "document_start" });
-    browser.tabs.executeScript(details.tabId, { file: "/illust.js", runAt: "document_end" });
+    browser.tabs.insertCSS(details.tabId, { file: "/src/index.css", runAt: "document_end" });
+    browser.tabs.executeScript(details.tabId, { file: "/src/purify.min.js", runAt: "document_start" });
+    browser.tabs.executeScript(details.tabId, { file: "/src/illust.js", runAt: "document_end" });
   }
   //member
   if (pageType == "member" || pageType == "bookmarks") {
-    browser.tabs.insertCSS(details.tabId, { file: "/main.css", runAt: "document_end" });
-    browser.tabs.executeScript(details.tabId, { file: "/purify.min.js", runAt: "document_start" });
-    browser.tabs.executeScript(details.tabId, { file: "/member.js", runAt: "document_end" });
+    browser.tabs.insertCSS(details.tabId, { file: "/src/index.css", runAt: "document_end" });
+    browser.tabs.executeScript(details.tabId, { file: "/src/purify.min.js", runAt: "document_start" });
+    browser.tabs.executeScript(details.tabId, { file: "/src/member.js", runAt: "document_end" });
   }
 }
 
