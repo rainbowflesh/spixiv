@@ -12,6 +12,7 @@ let layout = `<!doctype html>
         body { background: #cdd1d7; /* bg2 */ }
         #root { display: none; }
     </style>
+    <link rel="stylesheet" href="https://unpkg.com/chota@latest">
 </head>
 <body>
     <header>
@@ -30,9 +31,24 @@ let layout = `<!doctype html>
             </ul>
         </nav>
     </header>
-    <main id="minip"></main>
+    <main id="spixiv"></main>
     <footer></footer>
 </body>
+  <style>
+    body.dark {
+      --bg-color: #000;
+      --bg-secondary-color: #131316;
+      --font-color: #f5f5f5;
+      --color-grey: #ccc;
+      --color-darkGrey: #777;
+    }
+  </style>
+  <script>
+    if (window.matchMedia &&
+        window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      document.body.classList.add('dark');
+    }
+  </script>
 </html>`;
 
 let cacheDuration = 1800000; //30 minutes

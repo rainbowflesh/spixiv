@@ -116,7 +116,7 @@ function addLayout() {
 function addProfile() {
   let profile = document.createElement("div");
   profile.id = "profile";
-  document.getElementById("minip").appendChild(profile);
+  document.getElementById("spixiv").appendChild(profile);
   //svg
   let svgMessage = `
         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -134,9 +134,9 @@ function addProfile() {
   //follow
   let follow = "";
   if (pageData.user.isFollowed == false) {
-    follow = `<button id="follow" rel="minip">${chrome.i18n.getMessage("buttonFollow")}</button>`;
+    follow = `<button id="follow" rel="spixiv">${chrome.i18n.getMessage("buttonFollow")}</button>`;
   } else {
-    follow = `<button id="follow" rel="minip" class="inactive">${chrome.i18n.getMessage("buttonFollowing")}</button>`;
+    follow = `<button id="follow" rel="spixiv" class="inactive">${chrome.i18n.getMessage("buttonFollowing")}</button>`;
   }
   //html
   let avatarImg = pageData.user.imageBig;
@@ -307,7 +307,7 @@ function addList() {
   let list = document.createElement("div");
   list.id = "list";
   list.innerHTML = DOMPurify.sanitize(chrome.i18n.getMessage("msgLoading"));
-  document.getElementById("minip").appendChild(list);
+  document.getElementById("spixiv").appendChild(list);
 }
 
 function getIllustIds() {

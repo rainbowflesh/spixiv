@@ -196,13 +196,15 @@ function addLayout() {
 function addAvatar() {
   let avatar = document.createElement("div");
   avatar.id = "avatar";
-  document.getElementById("minip").appendChild(avatar);
+  document.getElementById("spixiv").appendChild(avatar);
   //follow
   let follow = "";
   if (pageData.user.isFollowed == false) {
-    follow = `<button id="follow" rel="minip">${browser.i18n.getMessage("buttonFollow")}</button>`;
+    follow = `<button id="follow" class="btn" rel="spixiv">${browser.i18n.getMessage("buttonFollow")}</button>`;
   } else {
-    follow = `<button id="follow" rel="minip" class="inactive">${browser.i18n.getMessage("buttonFollowing")}</button>`;
+    follow = `<button id="follow" class="btn" rel="spixiv" class="inactive">${browser.i18n.getMessage(
+      "buttonFollowing"
+    )}</button>`;
   }
   //html
   let avatarImg = pageData.user.imageBig;
@@ -289,7 +291,7 @@ function addGallery() {
   let gallery = document.createElement("div");
   gallery.id = "gallery";
   if (app.opts.fitImages) gallery.className = "fitImages";
-  document.getElementById("minip").appendChild(gallery);
+  document.getElementById("spixiv").appendChild(gallery);
 }
 
 function addIllusts() {
@@ -340,20 +342,20 @@ function onImgError(event) {
 function addInfo() {
   let info = document.createElement("div");
   info.id = "illustInfo";
-  document.getElementById("minip").appendChild(info);
+  document.getElementById("spixiv").appendChild(info);
   //title
-  let html = `<div id="mini-title"><b>${pageData.illust.title}</b>`;
+  let html = `<div id="title"><b>${pageData.illust.title}</b>`;
   //like
   if (pageData.illust.likeData == false) {
-    html += `<button id="like" rel="minip">${svgLike}</button>`;
+    html += `<button id="like" class="likeButton" rel="spixiv">${svgLike}</button>`;
   } else {
-    html += `<button id="like" rel="minip" class="inactive">${svgLike}</button>`;
+    html += `<button id="like" class="likeButton" rel="spixiv" class="inactive">${svgLike}</button>`;
   }
   //bookmark
   if (pageData.illust.bookmarkData == null) {
-    html += `<button id="bookmark" rel="minip">${svgBookmark}</button>`;
+    html += `<button id="bookmark" class="likeButton" rel="spixiv">${svgBookmark}</button>`;
   } else {
-    html += `<button id="bookmark" rel="minip" class="inactive">${svgBookmark}</button>`;
+    html += `<button id="bookmark" class="likeButton" rel="spixiv" class="inactive">${svgBookmark}</button>`;
   }
   html += `</div>`;
   //desc

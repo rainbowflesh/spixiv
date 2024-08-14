@@ -1,14 +1,14 @@
 {
   "appName": {
-    "message": "Mini Pixiv",
+    "message": "SPixiv",
     "description": ""
   },
   "appDesc": {
-    "message": "Make Pixiv light and fast. Display all images automatically.",
+    "message": "Simplified Pixiv.net",
     "description": ""
   },
   "appInfo": {
-    "message": "Features:<br>- Changes the layout to be simple and fast.<br>- Blocks bloatware scripts.<br>- Displays all images in a gallery automatically.<br>- Option to fit images to screen width and height.<br>- Option to load master images (low-res) or original images (hi-res) by default.<br>- Option to use a CDN for the images.<br>- Enforces link colors so you know which pages you have already visited (Firefox only).<br><br>The original Pixiv layout runs a lot of scripts in your browser. This makes it unresponsive, slow and overheats laptops.<br>The Mini Pixiv extension blocks these scripts and changes the layout, making it lighter and faster.<br><br>The extension supports illustration pages and member pages for now. Support for additional pages are in the works.<br><br>FREE 30 DAY TRIAL. You may need to Sign in to Chrome and turn on sync for your license to be loaded.",
+    "message": "The MiniP fork.",
     "description": ""
   },
   "menuManage": {
