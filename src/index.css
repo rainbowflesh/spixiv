@@ -10,6 +10,16 @@ svg {
   vertical-align: text-top;
 }
 
+.logo {
+  height: 1rem;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .pagination {
   text-align: center;
   border-bottom: solid 1px #b4b6b9;
