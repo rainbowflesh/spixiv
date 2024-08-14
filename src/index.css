@@ -117,7 +117,7 @@ header a:visited {
 }
 
 #gallery img {
-  max-width: none;
+  object-fit: scale-down;
   height: 86dvh;
   min-width: 200px;
   min-height: 200px;
