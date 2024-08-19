@@ -1,3 +1,9 @@
+@media (prefers-color-scheme: dark) {
+  a.inactive {
+    color: white;
+  }
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -212,7 +218,6 @@ h2 {
 }
 
 #profile {
-  grid-area: profile;
   position: fixed;
   z-index: 2;
   width: 210px;
@@ -403,10 +408,9 @@ h2 {
 }
 
 #memberPage #more {
+  background-color: black;
   display: block;
   border-top: solid 1px #877b7b;
-  /* border-dark */
-  height: 30px;
   line-height: 30px;
   position: absolute;
   bottom: 0;
