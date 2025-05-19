@@ -1,5 +1,5 @@
-# WIP
-
+# Deprecate
+Use https://github.com/rainbowflesh/pppixiv instead.
 # SPixiv
 
 <p align="center">
